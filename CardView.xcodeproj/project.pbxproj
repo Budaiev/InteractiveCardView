@@ -12,6 +12,8 @@
 		1B32CF7421872ADF0078C084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B32CF7221872ADF0078C084 /* Main.storyboard */; };
 		1B32CF7621872AE10078C084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B32CF7521872AE10078C084 /* Assets.xcassets */; };
 		1B32CF7921872AE10078C084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B32CF7721872AE10078C084 /* LaunchScreen.storyboard */; };
+		1B32CF8121872CA80078C084 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B32CF8021872CA80078C084 /* CardViewController.xib */; };
+		1B32CF8321872DDF0078C084 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32CF8221872DDF0078C084 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B32CF7521872AE10078C084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B32CF7821872AE10078C084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B32CF7A21872AE10078C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B32CF8021872CA80078C084 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		1B32CF8221872DDF0078C084 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1B32CF7521872AE10078C084 /* Assets.xcassets */,
 				1B32CF7721872AE10078C084 /* LaunchScreen.storyboard */,
 				1B32CF7A21872AE10078C084 /* Info.plist */,
+				1B32CF8021872CA80078C084 /* CardViewController.xib */,
+				1B32CF8221872DDF0078C084 /* CardViewController.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B32CF8121872CA80078C084 /* CardViewController.xib in Resources */,
 				1B32CF7921872AE10078C084 /* LaunchScreen.storyboard in Resources */,
 				1B32CF7621872AE10078C084 /* Assets.xcassets in Resources */,
 				1B32CF7421872ADF0078C084 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				1B32CF7121872ADF0078C084 /* ViewController.swift in Sources */,
 				1B32CF6F21872ADF0078C084 /* AppDelegate.swift in Sources */,
+				1B32CF8321872DDF0078C084 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
